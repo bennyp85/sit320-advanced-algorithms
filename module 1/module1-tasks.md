@@ -11,10 +11,10 @@ pseudo code for the game of tic-tac-toe - **video optional**
 fill in reference python reference sheet
 
 ### Task 5
-show that anaconda is installed/working in vscode
+show that jupyter is installed/working in vscode
 
 ### Task 6
-evidence that i have an sit320 venv
+evidence that sit320 has it's own environment
 
 ### Task 7
 evidence that python is running on my machine
