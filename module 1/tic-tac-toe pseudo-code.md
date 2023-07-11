@@ -34,6 +34,7 @@
 
 4. test
 
+---
 
 ### some term definitions
 #### branching factor - the number of child nodes a node has.
@@ -42,6 +43,7 @@
 #### minimax - a decision rule for minimizing the possible loss for a worst case scenario.
 #### heuristic - a function that ranks alternatives in search algorithms at each branching step based on available information to decide which branch to follow.
 
+---
 
 ### minimax algorithm
 
@@ -59,6 +61,7 @@ def min-value(state,depth):
         v = MIN(v,max-value(s,depth-1))
     return v
 
+---
 
 ### alpha-beta pruning
 
@@ -80,8 +83,6 @@ def min-value(state, a, b, depth):
         if b <= a: return b \\ this is a cutoff point
     return b
 
-
-
-
+---
 
 #### Pseuo-code
