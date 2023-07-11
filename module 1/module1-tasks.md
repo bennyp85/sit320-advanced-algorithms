@@ -14,10 +14,10 @@ fill in reference python reference sheet
 show that anaconda is installed/working in vscode
 
 ### Task 6
-evidence that sit320 has it's own venv
+evidence that i have an sit320 venv
 
 ### Task 7
-evidence that python is running
+evidence that python is running on my machine
 
 ### Task 8
 write a few test cases for the tic-tac-toe game
