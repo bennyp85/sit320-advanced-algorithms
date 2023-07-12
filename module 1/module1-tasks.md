@@ -5,7 +5,7 @@ sign planning form
 problem solving strategy for the game of tic-tac-toe
 
 ### Task 3
-pseudo code for the game of tic-tac-toe - **video optional**
+pseudo code for the game of tic-tac-toe **video optional**
 
 ### Task 4
 fill in reference python reference sheet
