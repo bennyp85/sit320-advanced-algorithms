@@ -52,7 +52,7 @@
 ---
 
 ### minimax algorithm / depth doesn't change in our version of tic-tac-toe
-
+```python
 def max-value(state,depth):
     if (depth == 0): return value(state)
     v = -infinite
@@ -66,11 +66,11 @@ def min-value(state,depth):
     for each s in SUCCESSORS(state):
         v = MIN(v,max-value(s,depth-1))
     return v
-
+```
 ---
 
 ### alpha-beta pruning / not useful for tic-tac-toe
-
+```python
 a = best score for max-player (helen)
 b = best score for min-player (stavros)
 initially, we call max-value(initial, -infinite, infinite, max-depth)
@@ -88,7 +88,7 @@ def min-value(state, a, b, depth):
         b = min(b,max-value(s,a,b,depth-1))
         if b <= a: return b \\ this is a cutoff point
     return b
-
+```
 ---
 
 #### Pseuo-code
