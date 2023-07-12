@@ -26,3 +26,5 @@
 ## Reflection
 ### Most important thing I learned?
 ### How does this relate to what I already know?
+### Why testing was troublesome?
+### Thoughts on Polya's problem solving framework?

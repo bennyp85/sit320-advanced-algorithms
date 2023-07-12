@@ -20,7 +20,7 @@ evidence that sit320 has it's own environment
 evidence that python is running on my machine
 
 ### Task 8
-write a few test cases for the tic-tac-toe game
+write test cases for the tic-tac-toe game
 highlight any bug fixes
 
 ### ontrack

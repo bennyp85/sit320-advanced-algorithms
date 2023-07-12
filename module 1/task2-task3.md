@@ -43,6 +43,15 @@
 
 # Glossary of Terms
 
+### Problem Solving
+The process of finding solutions to difficult or complex issues.
+
+### Algorithm Design
+The process of designing a set of instructions to solve a problem.
+
+### Design Paradigms
+A general approach to solving problems.
+
 ### Branching Factor 
 The number of child nodes a node has.
 
@@ -69,6 +78,18 @@ The study of mathematical models of strategic interaction among rational decisio
 
 ### Markov Property
 A property stating that the future is independent of the past given the present.
+
+### Test Cases
+Verifies the functionality of a particular feature of a software application.
+
+### Automated Testing
+The use of software to control the execution of tests, the comparison of actual outcomes to predicted outcomes, the setting up of test preconditions, and other test control and test reporting functions.
+
+### Edge Case
+A problem or situation that occurs only at an extreme (maximum or minimum) operating parameter that could cause a program to crash.
+
+### Quality Assurance
+A way of preventing mistakes in software products and avoiding problems when delivering solutions or services.
 
 ---
 # Useful Algorithms
