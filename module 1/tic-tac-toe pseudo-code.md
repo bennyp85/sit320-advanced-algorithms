@@ -114,6 +114,7 @@ def min-value(state, a, b, depth):
 ---
 
 #### Pseuo-code
+```
 Initialize an empty 3x3 board as a 2D array or matrix
 
 Display the empty board
@@ -147,4 +148,4 @@ Repeat until there is a winner or a draw:
         - If yes, display "Draw!" and end the game
 
 End the game
-
+```
