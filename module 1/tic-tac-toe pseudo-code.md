@@ -71,9 +71,9 @@ The study of mathematical models of strategic interaction among rational decisio
 A property stating that the future is independent of the past given the present.
 
 ---
-## Useful Algorithms
+# Useful Algorithms
 
-### minimax algorithm / depth doesn't change in our version of tic-tac-toe
+## minimax algorithm / depth doesn't change in our version of tic-tac-toe
 ```python
 def max-value(state,depth):
     if (depth == 0): return value(state)
@@ -89,9 +89,16 @@ def min-value(state,depth):
         v = MIN(v,max-value(s,depth-1))
     return v
 ```
+
+## Thougts on minimax
+- The minimax algorithm is a recursive algorithm for choosing the next move in an n-player game, usually a two-player, zero-sum game.
+- A value is associated with each position or state of the game.
+    - For example, a positive value may be assigned to a winning position, a negative value to a losing position, and zero to a neutral state.
+    - These value are from the perspective of the maximizing player.
+- The maximizing player aims to choose a position with the maximum value, while the minimizing player aims to choose a position with the minimum value.
 ---
 
-### alpha-beta pruning / not useful for tic-tac-toe
+## alpha-beta pruning / not useful for tic-tac-toe
 ```python
 a = best score for max-player (helen)
 b = best score for min-player (stavros)
@@ -111,9 +118,14 @@ def min-value(state, a, b, depth):
         if b <= a: return b \\ this is a cutoff point
     return b
 ```
+
+## Thoughts on alpha-beta pruning
+- Alpha-beta pruning is a search algorithm that seeks to decrease the number of nodes that are evaluated by the minimax algorithm in its search tree.
+- It stops evaluating a move when at least one possibility has been found that proves the move to be worse than a previously examined move.
+- Aplha-beta pruning does not affect the final decision of the minmax algirithm -it comes to the same conclusion, but more efficiently.
 ---
 
-#### Pseuo-code
+# Pseuo-code for Tic-Tac-Toe
 ```
 Initialize an empty 3x3 board as a 2D array or matrix
 
