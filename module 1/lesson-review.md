@@ -1,5 +1,5 @@
 # Module One Lesson Review
-## [Click here for GitHub Repo](https://github.com/bennyp85/sit320-advanced-algorithms/tree/master/module%201)
+## [GitHub Repo](https://github.com/bennyp85/sit320-advanced-algorithms/tree/master/module%201)
 ## [Video Link](https://www.youtube.com/watch?v=xXvkM9e0Kg8)
 ### Idea one - Polya's problem-solving framework
 **Main topics**: 
