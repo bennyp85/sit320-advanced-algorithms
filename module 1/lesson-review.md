@@ -1,7 +1,6 @@
 # Module One Lesson Review
----
-## [github repo](https://github.com/bennyp85/sit320-advanced-algorithms/tree/master/module%201)
----
+## [Click here for GitHub Repo](https://github.com/bennyp85/sit320-advanced-algorithms/tree/master/module%201)
+## [Video Link](https://www.youtube.com/watch?v=xXvkM9e0Kg8)
 ### Idea one - Polya's problem-solving framework
 **Main topics**: 
 The Polya's problem-solving framework involves a step-by-step approach to finding solutions. Key elements include identifying the unknowns, data, and constraints of the problem and exploring partial solutions or different problem frames when a direct solution is not readily available.
