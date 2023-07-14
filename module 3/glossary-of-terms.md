@@ -1,14 +1,30 @@
 # Glossary of Terms
 
-1. **Algorithm** - A precise sequence of instructions or set of rules for performing computation or solving a specific task.
+1. **Algorithm**
+   - An algorithm is a well-defined sequence of steps that provides a solution for a specific type of problem.
+   - Algorithms are fundamental to computer science and programming as they provide the backbone for any non-trivial program.
+   - Some common examples of algorithms include sorting algorithms, search algorithms, and numerical algorithms for scientific computing.
 
-2. **Design Pattern** - A reusable solution to a common problem in software design. It's a template used to solve problems that can occur in many different situations.
+2. **Design Pattern**
+   - Design patterns represent best practices and are solutions to common problems that occur in software design. These are not code per se, but are templates on how to solve problems.
+   - They can speed up the development process by providing tested and optimized development paradigms.
+   - Examples include the Factory Pattern, Singleton, and Observer Pattern among many others.
 
-3. **Factory Pattern** - A creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+3. **Factory Pattern**
+   - The Factory Pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without specifying the exact class of object that will be created.
+   - It provides a simple way of extending the program's functionality by substituting different factory classes.
+   - This pattern allows the subclasses to alter the type of objects that will be created.
 
-4. **Class Diagram** - A type of UML diagram that describes the structure of a system by showing the system's classes, their attributes, and the relationships among the classes.
+4. **Class Diagram**
+   - Class diagrams are a type of structural UML diagram that depict the classes within a system and the relationships between those classes.
+   - They show properties and operations of a class and also the relationships the class shares with other classes.
+   - Class diagrams are used for a variety of purposes, including both conceptual/domain modeling and detailed design modeling.
 
-5. **Minimax Algorithm** - A decision-making algorithm, typically used in a turn-based, two-player games. The goal of the Minimax algorithm is to find the optimal move for a player assuming that the opponent is also playing optimally.
+5. **Minimax Algorithm**
+   - The Minimax algorithm is used in game theory to make decision in a multi-agent environment, typically turn-based games, where the result of a game is a win, lose, or draw outcome.
+   - It works by simulating all possible game scenarios and then making an optimal move based on the best possible outcome.
+   - The algorithm assumes perfect play, meaning it expects that the opponent will also be using the minimax algorithm to determine their moves.
+
 
 6. **Reinforcement Learning** - A type of machine learning where an agent learns to behave in an environment, by performing certain actions and observing the results/results.
 

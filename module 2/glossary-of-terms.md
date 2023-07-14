@@ -1,14 +1,30 @@
 # Glossary of Terms
 
-**1. Algorithm:** A well-defined procedure or set of rules for solving a problem.
+**1. Algorithm:**
+   * Used for problem-solving and decision-making in a wide range of fields, including computer science and mathematics.
+   * Efficient algorithms can perform tasks more quickly and use less computing resources.
+   * Examples of algorithms include sorting algorithms like quicksort or mergesort, and search algorithms like binary search or breadth-first search.
 
-**2. Code Refactoring:** The process of restructuring existing computer code without changing its external behavior to improve its internal structure.
+**2. Code Refactoring:**
+   * Improves code readability and reduces complexity, making the code easier to maintain and extend.
+   * Involves making small, incremental changes, like renaming variables for clarity or breaking down a large function into smaller, more manageable functions.
+   * While refactoring, it's essential to have a good set of tests to ensure the behavior of the software hasn't changed.
 
-**3. Dependency Inversion Principle (DIP):** A principle that states high-level modules should not depend on low-level modules; both should depend on abstractions.
+**3. Dependency Inversion Principle (DIP):**
+   * It decouples the software modules, which makes them easier to manage and understand.
+   * It increases the flexibility of the system by enabling it to be easily changed or extended.
+   * It reduces the impact of changes in the details of the low-level modules on the high-level modules.
 
-**4. Open-Closed Principle (OCP):** A principle that suggests software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
+**4. Open-Closed Principle (OCP):**
+   * Encourages developers to extend the behavior of the system using new code, rather than by changing existing code.
+   * Helps to avoid issues that can arise from modifying existing code, such as introducing new bugs.
+   * Helps in keeping your code easily maintainable, flexible, and robust.
 
-**5. Inheritance:** A principle in object-oriented programming where a class can inherit methods and fields from a superclass.
+**5. Inheritance:**
+   * Helps in code reusability as the child class inherits the properties and functionalities of the parent class.
+   * It can be used to represent real-world relationships (like "a cat is a type of animal") in code.
+   * Inheritance should be used judiciously as it can make the code harder to understand and maintain if misused. Prefer composition over inheritance where possible.
+
 
 **6. Composition:** A design principle in object-oriented programming where a class can have an instance of another class as a field of the class.
 
@@ -16,7 +32,11 @@
 
 **8. Reinforcement Learning:** A type of machine learning where an agent learns how to behave in an environment by performing actions and getting rewards or penalties.
 
-**9. Liskov's Substitution Principle (LSP):** A principle in object-oriented programming that states if a program is using a base class, it should be able to use any of its subclasses without the program knowing it.
+**9. Liskov's Substitution Principle (LSP):** LSP is a principle in object-oriented programming that states if a program is using a base class, it should be able to use any of its subclasses without the program knowing it.
+  - **Subtype Requirement:** Subclasses or derived classes should be substitutable for their base or parent class. This means, in simpler terms, that methods or functions that use pointers or references to the base class must be able to use objects of the derived class without knowing it.
+  - **Design By Contract:** LSP is closely related to the concept of "Design by Contract" established by Bertrand Meyer. This involves setting preconditions, postconditions, and invariants for classes and their functions, and each of these should hold true even when a derived class is substituted for the base class.
+  - **Impact on Inheritance:** The principle restricts some changes that could be made to the class hierarchy during inheritance. This is mainly about strengthening preconditions or weakening postconditions, which are disallowed, as they could potentially violate the principle.
+
 
 **10. Class Diagram:** A type of static structure diagram in UML that describes the structure of a system by showing the system's classes, their attributes, and the relationships among the classes.
 
@@ -34,8 +54,10 @@
 
 **17. Unit Testing:** A level of software testing where individual units or components of a software are tested to validate that each performs as designed.
 
-**18. Abstraction:** A method of isolating the functionalities of a system while reducing the impact of change.
+**18. Abstract Class**: A class that cannot be instantiated and is used to define common characteristics for subclasses.
 
 **19. Stub:** A piece of code used to stand in for some other programming functionality. Stubs may simulate the behavior of existing code or stand in for code yet to be developed.
 
 **20. Tic-Tac-Toe:** A simple game played on a grid where the goal is to get three of your marks (either X or O) in a row, either horizontally, vertically, or diagonally.
+
+**21. Interface:** A programming structure that allows the computer to enforce certain properties on an object (class).
