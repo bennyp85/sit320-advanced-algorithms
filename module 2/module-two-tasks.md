@@ -6,6 +6,8 @@
 - Reflect on your interaction with the unit chair/tutors/peers and summarize insights you gained.
 - Highlight any additional research you did outside of the module content, be it online or in the library. 
     - **Remember to cite your sources appropriately.**
+    - [refactoring guru](https://refactoring.guru/)
+    - **Design Principles and Design Patterns by Robert C. Martin**
 - If you interacted with ChatGPT, document the prompts you used and summarize the information you obtained.
 
 ## Task 1: Re-factor tic-tac-toe code
