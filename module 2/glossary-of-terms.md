@@ -25,12 +25,21 @@
    * It can be used to represent real-world relationships (like "a cat is a type of animal") in code.
    * Inheritance should be used judiciously as it can make the code harder to understand and maintain if misused. Prefer composition over inheritance where possible.
 
+**6. Composition:**
+- Composition allows for creating complex objects by combining simpler objects.
+- It promotes code reusability and modularity.
+- The composed objects can be easily replaced or modified without affecting the overall structure.
 
-**6. Composition:** A design principle in object-oriented programming where a class can have an instance of another class as a field of the class.
+**7. Minimax Algorithm:**
+- The minimax algorithm is commonly used in games with two players, such as chess or tic-tac-toe.
+- It explores all possible moves and their consequences to determine the best move for the current player.
+- The algorithm assumes that both players are playing optimally, trying to minimize their maximum possible loss.
 
-**7. Minimax Algorithm:** A decision-making algorithm for minimizing the worst-case potential loss in games with two players.
+**8. Reinforcement Learning:**
+- Reinforcement learning is inspired by how humans learn through trial and error.
+- It involves an agent interacting with an environment and learning from the feedback received in the form of rewards or penalties.
+- The agent learns to maximize the cumulative reward by adjusting its actions based on past experiences.
 
-**8. Reinforcement Learning:** A type of machine learning where an agent learns how to behave in an environment by performing actions and getting rewards or penalties.
 
 **9. Liskov's Substitution Principle (LSP):** LSP is a principle in object-oriented programming that states if a program is using a base class, it should be able to use any of its subclasses without the program knowing it.
   - **Subtype Requirement:** Subclasses or derived classes should be substitutable for their base or parent class. This means, in simpler terms, that methods or functions that use pointers or references to the base class must be able to use objects of the derived class without knowing it.
@@ -61,3 +70,11 @@
 **20. Tic-Tac-Toe:** A simple game played on a grid where the goal is to get three of your marks (either X or O) in a row, either horizontally, vertically, or diagonally.
 
 **21. Interface:** A programming structure that allows the computer to enforce certain properties on an object (class).
+
+**22. Software Rigitiy:** A software system is rigid if it is difficult to change. This is usually because changing one part of the system requires making changes to many other parts.
+
+**23. Software Fragility:** A software system is fragile if making a change to one part of the system breaks other parts of the system.
+
+**24. Software Immobility:** A software system is immobile if it is difficult to reuse parts of it in other systems.
+
+**25. Software Viscosity:** A software system has high viscosity if it is difficult to make changes to it without breaking it.
