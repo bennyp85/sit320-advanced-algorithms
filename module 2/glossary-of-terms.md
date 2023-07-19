@@ -40,24 +40,42 @@
 - It involves an agent interacting with an environment and learning from the feedback received in the form of rewards or penalties.
 - The agent learns to maximize the cumulative reward by adjusting its actions based on past experiences.
 
-
-**9. Liskov's Substitution Principle (LSP):** LSP is a principle in object-oriented programming that states if a program is using a base class, it should be able to use any of its subclasses without the program knowing it.
+**9. Liskov's Substitution Principle (LSP):**
   - **Subtype Requirement:** Subclasses or derived classes should be substitutable for their base or parent class. This means, in simpler terms, that methods or functions that use pointers or references to the base class must be able to use objects of the derived class without knowing it.
   - **Design By Contract:** LSP is closely related to the concept of "Design by Contract" established by Bertrand Meyer. This involves setting preconditions, postconditions, and invariants for classes and their functions, and each of these should hold true even when a derived class is substituted for the base class.
   - **Impact on Inheritance:** The principle restricts some changes that could be made to the class hierarchy during inheritance. This is mainly about strengthening preconditions or weakening postconditions, which are disallowed, as they could potentially violate the principle.
 
+**10. Class Diagram:**
+- A type of static structure diagram in UML.
+- Describes the structure of a system by displaying its classes, attributes, and relationships.
+- Used to provide a visual representation of the system's design.
 
-**10. Class Diagram:** A type of static structure diagram in UML that describes the structure of a system by showing the system's classes, their attributes, and the relationships among the classes.
+**11. UML (Unified Modeling Language):**
+- A general-purpose modeling language in software engineering.
+- Intended to standardize the visualization of system designs.
+- Incorporates various diagram types, including class, sequence, and activity diagrams.
 
-**11. UML (Unified Modeling Language):** A general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system.
+**12. Code Smell:**
+- An indication of potential issues or bad practices in code.
+- Usually represents deeper problems in the system's design or logic.
+- Not a bug, but rather a symptom of potential underlying issues.
 
-**12. Code Smell:** A surface indication that usually corresponds to a deeper problem in the system.
+**13. Test-Driven Development (TDD):**
+- A development approach where tests are written before the code.
+- Ensures code meets requirements and functions correctly from the start.
+- Allows for immediate feedback and promotes cleaner, more maintainable code.
 
-**13. Test-Driven Development (TDD):** A software development approach in which a test is written before writing the code. When the test passes, the code is refactored as necessary.
+**14. Red-Green-Refactor:**
+- Represents the cycle of TDD.
+- Start by writing a failing test (red), then write code to make it pass (green).
+- After passing, the code is refactored for improvements or optimization.
 
-**14. Red-Green-Refactor:** A TDD process where you first write a failing test (red), make it pass in the simplest way possible (green), and then refactor.
+**15. 'Make it work, Make it right, Make it fast':**
+- A three-phase development approach.
+- Initially, focus on making the code functional (work).
+- Then, improve code quality and readability (right).
+- Lastly, optimize for performance (fast).
 
-**15. 'Make it work, Make it right, Make it fast':** A development approach where you first make the code work, then refactor it for readability and maintainability, and finally optimize it for performance.
 
 **16. Module:** In the context of programming, a module is a software component or part of a program that integrates with other components to run a whole system.
 
