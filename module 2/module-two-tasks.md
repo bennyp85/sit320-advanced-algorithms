@@ -63,7 +63,7 @@ Considering the checklist, here are the next steps:
 #### Summary of Learning:
    - Reflect on the entire process: the initial understanding of the task, challenges faced, what you've learned about design principles, and any feedback or insights from peers/tutors.
    - Mention how the interaction with tools (like ChatGPT) aided in your understanding.
-   - Highlight any 'aha' moments or points of confusion that you managed to clarify.
+   - Highlight any 'aha' moments or points of confusion that you managed to clarify. **push functions up**
 
 Finally, do a quick self-review:
    - Run the game in all configurations to ensure everything works smoothly.
