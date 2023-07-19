@@ -5,6 +5,7 @@
 +------------------------------------+
 | - boardGame: Board                 |
 +-------------------------------------------------+
+| + __init__(boardGame: Board)                    |
 | + bestMove(boardGame: Board, letter: char): int |
 +-------------------------------------------------+
 
@@ -14,10 +15,11 @@
 +-------------------------------+
 | - dimension: int              |
 +--------------------------------------------------+
+| + __init__(dimension: int)                       |
 | + createBoard(): void                            |
 | + printBoard(): void                             |
 | + setCellState(position: int, state: char): void |
-| + getCellState(position: int): char              |
+| + getCellState(position: int): String            |
 | + getBoardState(): dict                          |
 | + getBoardDimensions(): int                      |
 +--------------------------------------------------+
@@ -28,6 +30,7 @@
 +----------------------------------+
 | - boardGame: Board               |
 +---------------------------------------------------+
+| + __init__(boardGame: Board)                      |
 | + chkForWin(): bool                               |
 | + chkForDraw(): bool                              |
 | + chkMarkForWin(letter: char): bool               |
@@ -39,12 +42,13 @@
 |        <<abstract>>           |
 |           Player              |
 +-------------------------------+
-| - letter: char                |
+| - letter: String              |
 | - algorithm: Algorithm        |
-+-----------------------------------------------+
-| + chooseAlgorithm(algorithm: Algorithm): void |
-| + makeMove(board: Board): void                |
-+-----------------------------------------------+
++--------------------------------------------------+
+| + __init__(letter: String, algorithm: Algorithm) |
+| + chooseAlgorithm(algorithm: Algorithm): void    |
+| + makeMove(board: Board): Tuple                  |
++--------------------------------------------------+
 ```
 
 - **GameLogic** is an abstract class that defines the game logic. It has a **Board** object as a member variable. It also has methods to check for a win, check for a draw, check for a win for a specific letter, insert a letter in a specific position, and check if a space is free.
