@@ -31,3 +31,41 @@
      - **LSP** is a concept in object-oriented programming that states that if a program is using a base class, it should be able to use any of its subclasses without the program knowing it.
 - Provide a **detailed explanation** of why you opted to use **inheritance over composition (containment).** 
     - Highlight the **benefits and trade-offs**, focusing on your specific use case.
+
+---
+
+
+- [ ] Working TicTacToe game.
+- [ ] Ability to choose board dimensions.
+- [ ] Ability to select an algorithm to play against.
+- [ ] Supported configurations: human/human, human/computer, computer/computer.
+- [ ] Open-Closed Principle (OCP) adhered to.
+- [ ] Dependency Inversion Principle (DIP) adhered to.
+- [ ] Liskov Substitution Principle (LSP) adhered to.
+- [ ] UML Diagram.
+- [ ] Unit Testing.
+- [ ] Short video presentation.
+- [ ] Summary of learning.
+
+Considering the checklist, here are the next steps:
+
+#### UML Diagram:
+   - Before you start, list down all the classes, interfaces, and their relationships. Also, consider attributes and operations for each class.
+   - Use a UML tool or software to create the diagram. Tools like [draw.io](https://www.draw.io/), Lucidchart, or even Microsoft Visio can be used.
+   - Make sure to follow the correct UML syntax and symbols for classes, interfaces, relationships, etc.
+
+#### Short Video Presentation:
+   - Start by writing down key points you want to cover.
+   - Introduce the problem, your approach, and the main features of your implementation.
+   - Discuss the principles you've applied and give brief examples from your code.
+   - A screen recording software like OBS Studio or Screencast-O-Matic can be handy. Show your code running, demonstrate its features, and walk through a few important code segments.
+
+#### Summary of Learning:
+   - Reflect on the entire process: the initial understanding of the task, challenges faced, what you've learned about design principles, and any feedback or insights from peers/tutors.
+   - Mention how the interaction with tools (like ChatGPT) aided in your understanding.
+   - Highlight any 'aha' moments or points of confusion that you managed to clarify.
+
+Finally, do a quick self-review:
+   - Run the game in all configurations to ensure everything works smoothly.
+   - Check if the game handles edge cases or unexpected inputs gracefully.
+   - Ensure that your code is well-documented, especially in parts where design principles are applied.
