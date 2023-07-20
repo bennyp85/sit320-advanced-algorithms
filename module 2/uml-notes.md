@@ -49,23 +49,23 @@
 +--------------------------------------------------+
 ```
 
-- **GameLogic** is an abstract class that defines the game logic. It has a **Board** object as a member variable. It also has methods to check for a win, check for a draw, check for a win for a specific letter, insert a letter in a specific position, and check if a space is free.
+- **GameLogic** is an abstract class that defines the game logic. It has a **Board** object as a member variable. It also has methods to check for a win, check for a draw, check for a win for a specific letter
 - **GameLogic** has associations with **Board** and **Algorithm**.
 - **GameLogic** subclasses inherit from **GameLogic**.
 - **GameLogic** is open for extension because it can be extended to support different games.
 - **GameLogic** is closed for modification because it does not need to be modified to support different games.
 ---
-- **Board** is an abstract class that defines the board. It has a **Board** object as a member variable. It also has methods to create the board, print the board, set the state of a cell, get the state of a cell, get the state of the board, and get the dimensions of the board.
+- **Board** is an abstract class that defines the board. It has a **Board** object as a member variable. It also has methods to create the board, print the board, set the state of a cell, get the state of a cell, get the state of the board, get the dimensions of the board and check if a space is free.
 - **Board** has associations with **GameLogic** and **Player** and **Algorithm**.
 - **Board** subclasses inherit from **Board**.
 - **Board** is open for extension because it can be extended to support different boards.
-- **Board** is closed for modification because it does not need to be modified to support different boards.
+- **Board** is closed for modification because it does not need to be modified to support different board dimensions. **This will change in module 3 when we accomodate for different games**
 ---
-- **Player** is an abstract class that defines the player. It has a letter and an algorithm as member variables. It also has methods to choose an algorithm and make a move.
+- **Player** is an abstract class that defines the player. It has a letter and an algorithm as member variables. It also has a method to make a move.
 - **Player** has associations with **Algorithm** and **Board**.
 - **Player** subclasses inherit from **Player**.
-- **Player** is open for extension because it can be extended to support different algorithms.
-- **Player** is closed for modification because it does not need to be modified to support different algorithms.
+- **Player** is open for extension because it can be extended to support different players.
+- **Player** is closed for modification because it does not need to be modified to support different players.
 ---
 - **Algorithm** is an abstract class that defines the algorithm. It has a **Board** object as a member variable. It also has a method to get the best move.
 - **Algorithm** has associations with **Board** and **Player** and **GameLogic**.

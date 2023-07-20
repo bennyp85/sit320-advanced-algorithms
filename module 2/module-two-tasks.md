@@ -35,17 +35,17 @@
 ---
 
 
-- [ ] Working TicTacToe game.
-- [ ] Ability to choose board dimensions.
-- [ ] Ability to select an algorithm to play against.
-- [ ] Supported configurations: human/human, human/computer, computer/computer.
-- [ ] Open-Closed Principle (OCP) adhered to.
-- [ ] Dependency Inversion Principle (DIP) adhered to.
-- [ ] Liskov Substitution Principle (LSP) adhered to.
-- [ ] UML Diagram.
-- [ ] Unit Testing.
+- [x] Working TicTacToe game.
+- [x] Ability to choose board dimensions.
+- [x] Ability to select an algorithm to play against.
+- [x] Supported configurations: human/human, human/computer, computer/computer.
+- [x] Open-Closed Principle (OCP) adhered to.
+- [x] Dependency Inversion Principle (DIP) adhered to.
+- [x] Liskov Substitution Principle (LSP) adhered to.
+- [x] UML Diagram.
+- [x] Unit Testing.
 - [ ] Short video presentation.
-- [ ] Summary of learning.
+- [x] Summary of learning.
 
 Considering the checklist, here are the next steps:
 
@@ -54,13 +54,3 @@ Considering the checklist, here are the next steps:
    - Introduce the problem, your approach, and the main features of your implementation.
    - Discuss the principles you've applied and give brief examples from your code.
    - A screen recording software like OBS Studio or Screencast-O-Matic can be handy. Show your code running, demonstrate its features, and walk through a few important code segments.
-
-#### Summary of Learning:
-   - Reflect on the entire process: the initial understanding of the task, challenges faced, what you've learned about design principles, and any feedback or insights from peers/tutors.
-   - Mention how the interaction with tools (like ChatGPT) aided in your understanding.
-   - Highlight any 'aha' moments or points of confusion that you managed to clarify. **push functions up**
-
-Finally, do a quick self-review:
-   - Run the game in all configurations to ensure everything works smoothly.
-   - Check if the game handles edge cases or unexpected inputs gracefully.
-   - Ensure that your code is well-documented, especially in parts where design principles are applied.

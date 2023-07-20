@@ -1,5 +1,5 @@
-# module two
-
+# Module Two Topics
+---
 ## Glossary of Terms
 
 **1. Algorithm:**
@@ -167,9 +167,9 @@
    - How does inheritance impact the readability of your code?
    - Does inheritance make it easier or more challenging for another developer to pick up and understand your codebase?
 ---
-## thoughts on design patterns
+## Thoughts on design patterns
 
-### design patterns
+### Design patterns
 - patterns are not specific pieces of code but rather general concepts that can be applied to different situations
 - patterns are not algorithms but rather templates for solving problems
 - an analogy for an algorithms is a recipe, whereas a pattern is a cooking technique
@@ -179,7 +179,7 @@
     - structure
     - example code
 
-### history of patterns
+### History of patterns
 - christopher alexander
     - architect
     - wrote a book called "a pattern language"
@@ -190,16 +190,16 @@
     - the book describes 23 patterns
     - the book is considered the bible of design patterns
 
-### why learn patterns
+### Why learn patterns
 - tried and tested solutions to common problems
 - common vocabulary for developers
 
-### criteria for patterns
+### Criteria for patterns
 - kludges for weak programming languages
 - can be inefficient soltions
 - unjustified use of patterns
 
-### classification of patterns
+### Classification of patterns
 - creational
     - abstract the instantiation process
     - encapsulate knowledge about which concrete classes the system uses
@@ -214,7 +214,7 @@
     - emphasize the communication between objects
 
 
-# design patterns pdf - robert c. martin
+# Design patterns pdf - robert c. martin
 
 The document discusses **software architecture and design patterns**, focusing on the principles and patterns that help maintain the dependency architecture of an application.
 
@@ -236,30 +236,30 @@ The document contrasts the **dependency structures** of procedural and object-or
 
 It concludes by discussing the mitigating forces against the Dependency Inversion Principle, acknowledging that while the principle assumes anything concrete is volatile, there are exceptions such as tried and true modules that are concrete but not volatile.
 ---
-## dependency inversion principle
+## Dependency Inversion Principle
 
-### dependencies
+### Dependencies
 - relationship (assoctions) between various entities
 - dependency: when one entity depends on another entity
     - for example in python one package can depend on another package
 - safe dependencies: when a change in one entity does not affect the other entity
 
-### stable design
+### Stable design
 - stable design: when a change in one entity does not affect the other entity
 - stable design is achieved by using abstractions
 
-### abstraction
+### Abstraction
 - abstraction: a simplified representation of a complex entity
 - abstraction is achieved by using interfaces
 - abstract things change less frequently than concrete things
 
-### procedural programming vs object oriented programming
+### Procedural Programming vs Object Oriented Programming
 - procedural programming: code is organized around procedures or functions
 - object oriented programming: code is organized around objects
 
-## open closed principle
+## Open-Closed principle
 
-### open for extension, closed for modification
+### Open for Extension, Closed for Modification
 - open for extension: the behavior of a module can be extended
     - example: adding a new algorithm to a module
 - closed for modification: the source code of a module is not modified
