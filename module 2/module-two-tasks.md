@@ -49,11 +49,6 @@
 
 Considering the checklist, here are the next steps:
 
-#### UML Diagram:
-   - Before you start, list down all the classes, interfaces, and their relationships. Also, consider attributes and operations for each class.
-   - Use a UML tool or software to create the diagram. Tools like [draw.io](https://www.draw.io/), Lucidchart, or even Microsoft Visio can be used.
-   - Make sure to follow the correct UML syntax and symbols for classes, interfaces, relationships, etc.
-
 #### Short Video Presentation:
    - Start by writing down key points you want to cover.
    - Introduce the problem, your approach, and the main features of your implementation.
