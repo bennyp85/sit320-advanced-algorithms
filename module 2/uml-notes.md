@@ -22,6 +22,7 @@
 | + getCellState(position: int): String              |
 | + getBoardState(): dict                            |
 | + getBoardDimensions(): int                        |
+| + spaceIsFree(position: int): bool                 |
 +----------------------------------------------------+
 
 +----------------------------------+
@@ -34,8 +35,6 @@
 | + chkForWin(): bool                                 |
 | + chkForDraw(): bool                                |
 | + chkMarkForWin(letter: string): bool               |
-| + insertLetter(letter: string, position: int): void |
-| + spaceIsFree(position: int): bool                  |
 +-----------------------------------------------------+
 
 +-------------------------------+
@@ -46,8 +45,7 @@
 | - algorithm: Algorithm        |
 +--------------------------------------------------+
 | + __init__(letter: String, algorithm: Algorithm) |
-| + chooseAlgorithm(algorithm: Algorithm): void    |
-| + makeMove(boardGame: Board): Tuple              |
+| + makeMove(boardGame: Board): void               |
 +--------------------------------------------------+
 ```
 

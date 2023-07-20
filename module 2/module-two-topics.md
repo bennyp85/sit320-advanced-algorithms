@@ -265,4 +265,3 @@ It concludes by discussing the mitigating forces against the Dependency Inversio
 - closed for modification: the source code of a module is not modified
     - example: adding a new algorithm to a module without modifying the source code of the module
 - the aim is to write code that does not have to be modified when new functionality is added
-
