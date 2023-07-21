@@ -2,7 +2,7 @@
 ---
 ## Task 0: Provide a short overview of what you learned in the module.
 ### [GitHub](https://github.com/bennyp85/sit320-advanced-algorithms/tree/master/module%202)
-### [Video Link]()
+### [Video Link](https://www.youtube.com/watch?v=aMOqBku3yb4)
 ### [ChatGPT Link](https://chat.openai.com/share/acfd037f-7d5f-4b95-93e5-795b42b8172b)
 #### **Software Design**
 - Good software design makes use of the **right** pattern for the job. It should follow the SOLID principles.
