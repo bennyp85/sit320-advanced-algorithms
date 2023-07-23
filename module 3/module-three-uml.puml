@@ -1,0 +1,125 @@
+
+@startuml GameFactory
+
+class GameFactory {
+    + createTicTacToe()
+    + createChess()
+    + createBackgammon()
+}
+
+abstract class TicTacToeGame {
+    + __init__()
+    + createTicTacToe()
+}
+
+abstract class ChessGame {
+    + __init__()
+    + createChess()
+}
+
+abstract class BackgammonGame {
+    + __init__()
+    + createBackgammon()
+}
+
+abstract class Algorithm  {
+    - boardGame: Board
+    + __init__(boardGame: Board)
+    + bestMove(boardGame: Board, letter: String): int
+}
+
+class Minimax  {
+    - boardGame: Board
+    + __init__(boardGame: Board)
+    + bestMove(boardGame: Board, letter: String): int
+}
+
+class ReinforcementLearning  {
+    - boardGame: Board
+    + __init__(boardGame: Board)
+    + bestMove(boardGame: Board, letter: String): int
+}
+
+
+abstract class Board {
+    - dimensions: int
+    + __init__(dimensions: int)
+    + createBoard() void
+    + printBoard() void
+    + setCellState(position: int, state: String) void
+    + getCellState(position: int): String
+    + getBoardState(): dictionary
+    + getBoardDimensions(): int
+    + spaceIsFree(position: int): boolean
+}
+
+
+class TicTactoeBoard {
+    - dimensions: int
+    + __init__(dimensions: int)
+    + createBoard() void
+    + printBoard() void
+    + setCellState(position: int, state: String) void
+    + getCellState(position: int): String
+    + getBoardState(): dictionary
+    + getBoardDimensions(): int
+    + spaceIsFree(position: int): boolean
+}
+
+abstract class GameLogic {
+    - boardGame: Board
+    + __init__(boardGame: Board)
+    + chkForWin(): boolean
+    + chkForDraw(): boolean
+    + chkMarkForWin(letter: String): boolean
+}
+
+
+class TicTacToeGameLogic {
+    - boardGame: Board
+    + __init__(boardGame: Board)
+    + chkForWin(): boolean
+    + chkForDraw(): boolean
+    + chkMarkForWin(letter: String): boolean
+}
+
+abstract class Player {
+    - letter: String
+    - algorithm: Algorithm
+    + __init__(letter: String, algorithm: Algorithm)
+    + makeMove(boardGame: Board) tuple
+}
+
+class HumanPlayer {
+    - letter: String
+    - algorithm: Algorithm
+    + __init__(letter: String, algorithm: Algorithm)
+    + makeMove(boardGame: Board) tuple
+}
+
+class ComputerPlayer {
+    - letter: String
+    - algorithm: Algorithm
+    + __init__(letter: String, algorithm: Algorithm)
+    + makeMove(boardGame: Board) tuple
+}
+
+GameFactory ..> TicTacToeGame
+GameFactory ..> ChessGame
+GameFactory ..> BackgammonGame
+TicTacToeGame ..> Algorithm 
+Algorithm .. GameLogic : checks decision with
+Algorithm <|-- Minimax
+Algorithm <|-- ReinforcementLearning
+TicTacToeGame ..> Board
+Board .. Algorithm
+Board <|-- TicTactoeBoard
+TicTacToeGame ..> GameLogic
+GameLogic .. Board : checks rules with
+GameLogic <|-- TicTacToeGameLogic
+TicTacToeGame ..> Player
+Player <|-- HumanPlayer
+Player <|-- ComputerPlayer
+Player .. Algorithm : chooses moves with
+Player .. Board : performs moves on
+@enduml
