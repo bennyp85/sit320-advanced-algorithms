@@ -1,0 +1,241 @@
+<mxfile host="65bd71144e">
+    <diagram id="mlrWmsT7ULeHNMqdVKXI" name="Page-1">
+        <mxGraphModel dx="2434" dy="2727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="23" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;TicTacToeFactory(AbstractGameFactory)&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="900" y="330" width="450" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="23">
+                    <mxGeometry y="35" width="450" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="+ dimensions: int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="23">
+                    <mxGeometry y="55" width="450" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="23">
+                    <mxGeometry y="75" width="450" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="23">
+                    <mxGeometry y="83" width="450" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="+ createBoard(self): Board&lt;br&gt;+ createGameLogic(self): GameLogic&lt;br&gt;+ createPlayer(self, letter: string, iscomputer: bool, algorithm: Algorithm): Player&lt;br&gt;+ createAlgorithm(self, algorithm: int): Algorithm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="23">
+                    <mxGeometry y="103" width="450" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;BackgammonFactory(AbstractGameFactory)&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1440" y="320" width="270" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="31">
+                    <mxGeometry y="30" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="31">
+                    <mxGeometry y="50" width="270" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="31">
+                    <mxGeometry y="58" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="+ createBoard(self): Board&lt;br&gt;+ createGameLogic(self): GameLogic&lt;br&gt;+ createPlayer(self): Player&lt;br&gt;+ createAlgorithm(self): Algorithm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="31">
+                    <mxGeometry y="78" width="270" height="112" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;ChessFactory(AbstractGameFactory)&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1790" y="320" width="270" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="37">
+                    <mxGeometry y="30" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="37">
+                    <mxGeometry y="50" width="270" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="37">
+                    <mxGeometry y="58" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="+ createBoard(self): Board&lt;br&gt;+ createGameLogic(self): GameLogic&lt;br&gt;+ createPlayer(self): Player&lt;br&gt;+ createAlgorithm(self): Algorithm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="37">
+                    <mxGeometry y="78" width="270" height="112" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/span&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;AbstractGameFactory&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1440" y="10" width="270" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="55" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="75" width="270" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="83" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="+ createBoard(self): Board&lt;br&gt;+ createGameLogic(self): GameLogic&lt;br&gt;+ createPlayer(self): Player&lt;br&gt;+ createAlgorithm(self): Algorithm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="103" width="270" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;br&gt;Algorithm&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-90" y="-240" width="290" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="- boardGame: Board&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="52">
+                    <mxGeometry y="40" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="52">
+                    <mxGeometry y="70" width="290" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="+ __init__(boardGame: Board)&lt;br&gt;+ bestMove(boardGame: Board, letter: String): Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="52">
+                    <mxGeometry y="78" width="290" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;br&gt;Board&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-50" y="300" width="280" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="- dimension: Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="57">
+                    <mxGeometry y="40" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="57">
+                    <mxGeometry y="66" width="280" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="+ __init__(dimension: Int)&lt;br&gt;+ createBoard(): void&lt;br&gt;+ printBoard(): void&lt;br&gt;+ setCellState(position: int, state: string): void&lt;br&gt;+ getCellState(position: int): string&lt;br&gt;+ getBoardState(): dict&lt;br&gt;+ getBoardDimensions(): int&lt;br&gt;+ spaceIsFree(posiiton: int): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="57">
+                    <mxGeometry y="74" width="280" height="126" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;br&gt;GameLogic" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="-700" width="260" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="- boardGame: Board" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="61">
+                    <mxGeometry y="40" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="61">
+                    <mxGeometry y="70" width="260" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="+ __init__(boardGame: Board)&lt;br&gt;+ chkForWin(): bool&lt;br&gt;+ chkForDraw(): bool&lt;br&gt;+ chkMarkForWin(letter string): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="61">
+                    <mxGeometry y="78" width="260" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;br&gt;Player" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="880" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="- letter: string&lt;br&gt;- algorithm: Algorithm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="65">
+                    <mxGeometry y="40" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="65">
+                    <mxGeometry y="80" width="260" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="+ __init__(letter: string, algorithm: Algorithm)&lt;br&gt;+ makeMove(boardGame: Board): tuple" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="65">
+                    <mxGeometry y="88" width="260" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="HumanPlayer(Player)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-180" y="1080" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="- letter: string&lt;br&gt;- algorithm: Algorithm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="69">
+                    <mxGeometry y="40" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="69">
+                    <mxGeometry y="80" width="260" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="+ __init__(letter: string, algorithm: Algorithm)&lt;br&gt;+ makeMove(boardGame: Board): tuple" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="69">
+                    <mxGeometry y="88" width="260" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Minimax(Algorithm)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-350" y="-10" width="470" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="- boardGame: Board&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="73">
+                    <mxGeometry y="40" width="470" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="73">
+                    <mxGeometry y="60" width="470" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="+ __init__(boardGame: Board)&lt;br&gt;+ bestMove(boardGame: Board, letter: String): Int&lt;br&gt;+ minimax(boardState: dict, depth: int, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;isMaximising: bool, letter: string, maxDepth: int): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="73">
+                    <mxGeometry y="68" width="470" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="TicTacToeBoard(Board)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-320" y="585" width="280" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="- dimension: Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="78">
+                    <mxGeometry y="30" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="78">
+                    <mxGeometry y="56" width="280" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="+ __init__(dimension: Int)&lt;br&gt;+ createBoard(): void&lt;br&gt;+ printBoard(): void&lt;br&gt;+ setCellState(position: int, state: string): void&lt;br&gt;+ getCellState(position: int): string&lt;br&gt;+ getBoardState(): dict&lt;br&gt;+ getBoardDimensions(): int&lt;br&gt;+ spaceIsFree(posiiton: int): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="78">
+                    <mxGeometry y="64" width="280" height="126" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="TicTacToeGameLogic(GameLogic)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-290" y="-490" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="- boardGame: Board" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="82">
+                    <mxGeometry y="30" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="82">
+                    <mxGeometry y="60" width="260" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="+ __init__(boardGame: Board)&lt;br&gt;+ chkForWin(): bool&lt;br&gt;+ chkForDraw(): bool&lt;br&gt;+ chkMarkForWin(letter string): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="82">
+                    <mxGeometry y="68" width="260" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="ComputerPlayer(Player)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1080" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="- letter: string&lt;br&gt;- algorithm: Algorithm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="86">
+                    <mxGeometry y="40" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="86">
+                    <mxGeometry y="80" width="260" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="+ __init__(letter: string, algorithm: Algorithm)&lt;br&gt;+ makeMove(boardGame: Board): tuple" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="86">
+                    <mxGeometry y="88" width="260" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="ReinforcementLearning(Algorithm)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="-10" width="470" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="- boardGame: Board&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="90">
+                    <mxGeometry y="40" width="470" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="90">
+                    <mxGeometry y="60" width="470" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="NOT IMPLEMENTED" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="90">
+                    <mxGeometry y="68" width="470" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="ChessBoard(Board)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="585" width="280" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="- dimension: Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="94">
+                    <mxGeometry y="30" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="94">
+                    <mxGeometry y="56" width="280" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="NOT IMPLEMENTED" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="94">
+                    <mxGeometry y="64" width="280" height="126" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="BackgammonBoard(Board)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="585" width="280" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="- dimension: Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="98">
+                    <mxGeometry y="30" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="98">
+                    <mxGeometry y="56" width="280" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="NOT IMPLEMENTED" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="98">
+                    <mxGeometry y="64" width="280" height="126" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="ChessGameLogic(GameLogic)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="-490" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="- boardGame: Board" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="102">
+                    <mxGeometry y="30" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="102">
+                    <mxGeometry y="60" width="260" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="+ __init__(boardGame: Board)&lt;br&gt;+ chkForWin(): bool&lt;br&gt;+ chkForDraw(): bool&lt;br&gt;+ chkMarkForWin(letter string): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="102">
+                    <mxGeometry y="68" width="260" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="BackgammonGameLogic(GameLogic)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="-480" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="- boardGame: Board" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="107">
+                    <mxGeometry y="30" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="107">
+                    <mxGeometry y="60" width="260" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="+ __init__(boardGame: Board)&lt;br&gt;+ chkForWin(): bool&lt;br&gt;+ chkForDraw(): bool&lt;br&gt;+ chkMarkForWin(letter string): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="107">
+                    <mxGeometry y="68" width="260" height="72" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
