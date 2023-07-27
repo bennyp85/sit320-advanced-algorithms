@@ -3,7 +3,7 @@
 - I will refer to the **Abstract Factory Pattern**, **Observer Pattern**, and **Singleton Pattern** and **Facade Pattern**.
 
 ## Task 0: Overview of Learning
-- [GitHub Repo Link](https://github.com/bennyp85/sit320-advanced-algorithms/tree/master/module%203)
+- [GitHub Repo Link](https://github.com/bennyp85/sit320-advanced-algorithms/blob/master/module%203/tic-tac-toe.ipynb)
 - [ChatGPT Link](https://chat.openai.com/share/86534efb-12be-41a5-a32a-e5f9375eee98)
 - No YouTube link for this module. I spoke to Kiran about my lesson review and she said that I should be fine without it.
 
