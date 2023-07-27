@@ -5,7 +5,7 @@
 ## Task 0: Overview of Learning
 - [GitHub Repo Link](https://github.com/bennyp85/sit320-advanced-algorithms/tree/master/module%203)
 - [ChatGPT Link](https://chat.openai.com/share/86534efb-12be-41a5-a32a-e5f9375eee98)
-- [YouTube Video Line]()
+- No YouTube link for this module. I spoke to Kiran about my lesson review and she said that I should be fine without it.
 
 - **Design patterns** are a set of solutions to common problems in software design. They are reusable and can be applied to different problems in different contexts.
 - **Factory patterns** are a type of design pattern that are used to create objects without exposing the creation logic to the client and refer to newly created objects using a common interface.
@@ -18,8 +18,19 @@
 - This is acheived by the use of a private constructor and a static method to return the instance of the object.
 - **Facade patterns** are a type of design pattern that provides a simple interface to a complex system.
 - I haven't really come accrross this pattern in my studies. But it makes sense that it would be implented for communicating with complex subsystems.
-- I have been actively analysing other peoples code on GitHub and looking to see if I can recognise any design patterns. 
-- This will take time and practice to get good at.
+- I have been actively analysing other peoples code on GitHub and looking to see if I can recognise any design patterns. This will take time and practice to get good at.
+- I can forsee that I will use this pattern in when I have a more complex system to communicate with.
+- In this course it may turn out to be useful when I'm working on my HD task.
+
+- **Challenges**
+- The challenges I faced when refactoring the code was understanding the logic of the code.
+- I could conceptualise the code but I couldn't understand the logic.
+- I had to go through the code line by line to understand what was happening.
+
+- **Engagement with Peers**
+- I have been actively engaging with my peers on the discussion board.
+- I helped others understand the Factory design pattern.
+- The specific concern was whether or not each part of the game should have its own factory. For example a **BoardFactory** and a **PlayerFactory**.
 
 
 **Aha Moments!**
@@ -55,6 +66,16 @@
 - An **Observer** object is removed
 - The **Subject** object is updated
 - The **Observer** objects are notified
+
+- I'm not exactly sure but I see that the observer pattern could be used to see how differnt algorithms are performing in a system.
+- The **Subject** object could be the system and the **Observer** objects could be the algorithms.
+- The **Subject** object could be updated with the system data and the **Observer** objects could be notified.
+
+- **Test Cases**
+- Create a test case to see if the **Observer** objects were being notified.
+- Remove all the **Observer** objects and see if the **Subject** object was updated.
+- Update two scores at the same time and see if the **Observer** objects were notified.
+- Modify the the subject so it can more parameters. For example a wide and an increase in the score. **Cricket Terms**.
 
 ## Readings
 - [Gang of Four Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns) - Wikipedia **I own this book and have not really understood until now. Practical application was key.**
