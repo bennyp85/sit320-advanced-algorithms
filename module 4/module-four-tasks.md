@@ -50,3 +50,23 @@
 ## 8. Finalize
 - Make any necessary revisions based on tutor feedback.
 - Ensure that all parts of the task are completed and tested.
+
+## Strategy Pattern
+
+**Definition**:
+The Strategy Pattern defines a set of algorithms, encapsulates each one, and makes them interchangeable. It lets the algorithm vary independently from the clients that use it.
+
+**Components**:
+1. **Strategy**: This is an interface common to all supported algorithms. It declares a method for executing an algorithm.
+2. **ConcreteStrategy**: This class implements the `Strategy` interface, providing the actual implementation for the algorithm.
+3. **Context**: Uses a `Strategy` to execute the algorithm. It contains a reference to a Strategy object and may define an interface that lets Strategy access its data.
+
+**Advantages**:
+- Enables a client to choose from a family of algorithms without altering the code that uses the algorithm.
+- Encapsulates the algorithm from the code that uses it.
+- Promotes adding new algorithms or changing existing algorithms without altering existing code.
+
+**Use in SIT320 — Advanced Algorithms: Trees**:
+- Different methods to balance trees (like AVL and Red-Black Trees) can be strategies.
+- Various rotations (left, right, left-right, right-left) are strategies to balance individual nodes.
+- The strategy pattern can be used to implement these algorithms and rotations in a way that is interchangeable and independent from the client code.
