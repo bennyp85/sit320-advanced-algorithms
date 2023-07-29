@@ -55,34 +55,34 @@ A BST is said to be balanced when the depth of two subtrees of every node never 
 ## Binary Search Tree (BST) - Time Complexity
 
 ### Search Operation:
-- **Best Case**: \(O(\log n)\) 
+- **Best Case**: \(O(log n)\) 
   - Scenario: The BST is balanced.
   
 - **Worst Case**: \(O(n)\) 
   - Scenario: The BST degenerates into a linked list (when elements are inserted in order).
 
-- **Average Case**: \(O(\log n)\) 
+- **Average Case**: \(O(log n)\) 
   - Scenario: The tree is reasonably well-balanced.
 
 ### Insertion Operation:
-- **Best Case**: \(O(\log n)\) 
+- **Best Case**: \(O(log n)\) 
   - Scenario: The BST is balanced.
   
 - **Worst Case**: \(O(n)\) 
   - Scenario: The BST becomes skewed (i.e., like a linked list).
   
-- **Average Case**: \(O(\log n)\)
+- **Average Case**: \(O(log n)\)
 
 ### Deletion Operation:
-- **Best Case**: \(O(\log n)\) 
+- **Best Case**: \(O(log n)\) 
   - Scenario: The BST is balanced. Finding the node is \(O(\log n)\), and if it's a node with one or no child, deletion is constant time. For a node with two children, finding the in-order predecessor (or successor) is \(O(\log n)\).
   
 - **Worst Case**: \(O(n)\) 
   - Scenario: In a skewed BST.
   
-- **Average Case**: \(O(\log n)\)
+- **Average Case**: \(O(log n)\)
 
-**Note**: The time complexities can be consistently maintained as \(O(\log n)\) if mechanisms are used to keep the BST balanced, such as in AVL Trees or Red-Black Trees.
+**Note**: The time complexities can be consistently maintained as \(O(log n)\) if mechanisms are used to keep the BST balanced, such as in AVL Trees or Red-Black Trees.
 
 
 ### Drawbacks:
