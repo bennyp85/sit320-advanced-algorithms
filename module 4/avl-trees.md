@@ -16,10 +16,27 @@ If, due to an operation like insertion or deletion, the balance factor for any n
 
 To rectify imbalance, AVL trees employ four types of rotations:
 
-1. **Single Right Rotation (LL Rotation)**: Applied when a left-heavy node's left child is also left-heavy.
-2. **Single Left Rotation (RR Rotation)**: Applied when a right-heavy node's right child is also right-heavy.
-3. **Left-Right Rotation (LR Rotation)**: Applied when a left-heavy node's left child is right-heavy. This rotation is essentially a left rotation followed by a right rotation.
-4. **Right-Left Rotation (RL Rotation)**: Applied when a right-heavy node's right child is left-heavy. This involves performing a right rotation followed by a left rotation.
+## Tree Rotations
+
+When maintaining the balance of AVL trees (or other balanced trees), rotations are essential. Depending on the imbalance's location, there are different rotations to apply. Here's a breakdown:
+
+### 1. Single Right Rotation (LL Rotation)
+- **When to Apply**: Applied when a node is left-heavy and its left child is also left-heavy.
+- **Operation**: The imbalanced node is rotated to the right.
+
+### 2. Single Left Rotation (RR Rotation)
+- **When to Apply**: Applied when a node is right-heavy and its right child is also right-heavy.
+- **Operation**: The imbalanced node is rotated to the left.
+
+### 3. Left-Right Rotation (LR Rotation)
+- **When to Apply**: Applied when a node is left-heavy but its left child is right-heavy.
+- **Operation**: First, a left rotation is applied to the left child, followed by a right rotation on the imbalanced node.
+
+### 4. Right-Left Rotation (RL Rotation)
+- **When to Apply**: Applied when a node is right-heavy but its right child is left-heavy.
+- **Operation**: First, a right rotation is applied to the right child, followed by a left rotation on the imbalanced node.
+
+By correctly applying these rotations, the balance of the tree can be maintained, ensuring optimal performance for tree operations.
 
 ## Advantages of Height-Balance
 
