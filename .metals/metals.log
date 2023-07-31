@@ -1,0 +1,35 @@
+2023.07.31 21:30:12 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\benny\sit320 advanced algorithms' for client Visual Studio Code 1.80.1.
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\benny\sit320 advanced algorithms\.metals\metals (H2 2.1)
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.010s)
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 31, 2023 9:30:13 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.010s)
+2023.07.31 21:30:13 INFO  time: initialize in 0.4s
+2023.07.31 21:30:13 WARN  Build server is not auto-connectable.
+2023.07.31 21:30:13 WARN  no build tool detected in workspace 'C:\Users\benny\sit320 advanced algorithms'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.31 22:17:38 WARN  no build target for: C:\Users\benny\Exercism\scala\hello-world\src\main\scala\HelloWorld.scala
+2023.07.31 22:17:40 INFO  no build target found for C:\Users\benny\Exercism\scala\hello-world\src\main\scala\HelloWorld.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.31 22:17:41 INFO  time: code lens generation in 1.92s
+Jul 31, 2023 10:37:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
