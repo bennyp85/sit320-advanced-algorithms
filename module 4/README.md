@@ -2,7 +2,7 @@
 
 ## Binary Search Trees (BST)
 
-- **coding Tasks**
+- **Coding Tasks**
     - [Notebook](https://github.com/bennyp85/sit320-advanced-algorithms/blob/master/module%204/Code_Mod4_Trees.ipynb)
     - [UML Diagram](https://github.com/bennyp85/sit320-advanced-algorithms/blob/master/module%204/trees-uml.png)
 
