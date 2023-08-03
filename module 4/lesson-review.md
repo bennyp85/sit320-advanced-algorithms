@@ -1,7 +1,9 @@
 # Module Five Lesson Review
 
 ## Module Overview
-
+- [GitHub Repository Link](https://github.com/bennyp85/sit320-advanced-algorithms/blob/master/module%204/Code_Mod4_Trees.ipynb)
+- [UML Diagram Link](https://github.com/bennyp85/sit320-advanced-algorithms/blob/master/module%204/trees-uml.png)
+- [ChatGPT Link](https://chat.openai.com/share/2eb4ac41-62ed-41d4-a77b-727a789019ed)
 
 ## Binary Search Trees (BST)
 ### Key Properties:
