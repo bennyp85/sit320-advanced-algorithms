@@ -12,6 +12,7 @@
 - Understanding the importance of the frontier and how it is used in the algorithm.
 - By storing the paths in dictionaries, I was able to keep track of the paths from the start and end nodes.
 - Using status names like, "VisitedByS" or "VisitedByT" helped me keep track of which nodes were visited by which search.
+- Directed graphs may or may not have a path between two nodes, but undirected graphs will always have a path between two nodes.
 
 ## Task 2: BFS for Bipartite Graph Determination
 
