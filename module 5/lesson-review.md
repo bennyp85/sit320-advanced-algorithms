@@ -71,7 +71,7 @@
 
 ## Task 3: Finding Strongly Connected Components (SCCs)
 
-![SCC Graph](SCC-Screenshot.png)
+![SCC Graph](SCC-screenshot.png)
 - Components are **strongly connected** if there is a path between every pair of vertices in the component.
 
 **Coding the Algorithm**
