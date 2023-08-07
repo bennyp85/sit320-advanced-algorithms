@@ -46,7 +46,7 @@
  
  **Bipartite Graph**
 
-![Bipartite Graph](Bipartite-graph.png)
+![Bipartite Graph](Bipartite-Graph.png)
 - Nodes in one set are colored red.
 - Nodes in the other set are colored orange.
 - No edge exists between nodes of the same color.
