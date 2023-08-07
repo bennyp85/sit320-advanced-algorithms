@@ -55,6 +55,7 @@
 
 - Discussion of interactions with the Unit Chair, Tutors, and Peers, research done, and interactions with ChatGPT.
 - Mistake on slide 163 of the lecture notes. After the puppy is marked as Finish:5 -> New York Times is marked as Start:7 **Missing Start:6**.
+- The example Graph given in the code for Task 3 had cycles. This produced an error when trying to find the SCCs. I had to modify the code to remove the cycles.
 
 ## Conclusion
 
