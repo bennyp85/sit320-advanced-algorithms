@@ -72,3 +72,25 @@ We'll prove that the greedy choice made by Prim's algorithm is safe by showing t
 ### Summary
 
 By showing that Prim's algorithm maintains the loop invariant and that its greedy choice of the minimum-weight crossing edge is always safe, we have proved that Prim's algorithm correctly finds the Minimum Spanning Tree of a connected, undirected graph with weighted edges.
+
+---
+### Psedo Code - I think this needs work.
+- We can use properties of the Node class to update the status of the node.
+```
+function Prim(graph):
+  for each vertex v in graph:
+    key[v] = +∞
+    parent[v] = NIL
+  key[start_vertex] = 0
+  Q = priority_queue(vertices, key)
+  
+  while Q is not empty:
+    u = extract_min(Q)
+    for each neighbor v of u:
+      if v in Q and weight[u, v] < key[v]:
+        parent[v] = u
+        key[v] = weight[u, v]
+        update_priority(Q, v)
+        
+  return parent // The parent array represents the MST edges
+```
