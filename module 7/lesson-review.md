@@ -1,6 +1,6 @@
 # School of Information Technology, Deakin University
 # SIT320 — Advanced Algorithms
-## Module Six — Dynamic Programming
+## Module Seven — Dynamic Programming
 ### [ChatGPT Link](https://chat.openai.com/share/c902a4fb-96ce-446d-9529-dfa1a652ca16)
 ### [GitHub Link](https://github.com/bennyp85/sit320-advanced-algorithms/tree/master/module%207)
 
