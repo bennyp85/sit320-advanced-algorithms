@@ -28,37 +28,37 @@
     - Bellman-Ford solves the problem of a graph with negative weights and cycles
 - The second step was to understand how Bellman-Ford works
     - Bellman-Ford works by relaxing all the edges in the graph n-1 times where n is the number of vertices in the graph
-**Djikstra Vs Bellman-Ford**
-- The main difference between Djikstra's and Bellman-Ford is that Djikstra's uses a **Greedy** design whereas Bellman-Ford uses a **Dynamic Programming** design
-**Test Cases**
-- The main thing to test for was graphs with negative weights and cycles
-**Algorithm Analysis**
-- The algorithm is O(m*n) where m and n are the number of edges and vertices respectively
-- This is worse than Djikstra's which is O((n+m)log(n)) where n and m are the number of vertices and edges respectively
+- **Djikstra Vs Bellman-Ford**
+    - The main difference between Djikstra's and Bellman-Ford is that Djikstra's uses a **Greedy** design whereas Bellman-Ford uses a **Dynamic Programming** design
+- **Test Cases**
+    - The main thing to test for was graphs with negative weights and cycles
+- **Algorithm Analysis**
+    - The algorithm is O(m*n) where m and n are the number of edges and vertices respectively
+    - This is worse than Djikstra's which is O((n+m)log(n)) where n and m are the number of vertices and edges respectively
 
 ## Task 2: Floyd-Warshall Algorithm - The most adaptable but inefficient of the shortest path algorithms
-**Key Points**
-- The Floyd-Warshall algorithm is a dynamic programming algorithm that finds the shortest path between all pairs of vertices in the graph
-- The key point here is **ALL PAIRS** of vertices
-- All pairs means that the algorithm uses a systematic approach to find the shortest path between all pairs of vertices
-**Floyd-Warshall Algorithm**
-- the fact that Floyd-Warshall find all pairs means that it is a **triple nested loop**
-- This **negatively** impacts the efficiency of the algorithm
-**Handling Negative Weights and Cycles**
-- Negative weights and cycles are **no problem** for Floyd-Warshall
-- The algorithm will still produce the correct output
-**Algorithm Implementation**
-- The algorithm is implemented using a triple nested loop
-- The first loop is used to iterate through the vertices
-- The second loop is used to iterate through the rows of the adjacency matrix
-- The third loop is used to iterate through the columns of the adjacency matrix
-**Test Cases**
-- I testing with a simple graph that had no negative weights or cycles
-- I then tested the algorithm with a graph with negative weights and cycles
-**Algorithm Analysis**
-- The running time of the algorithm is **O(n^3)** where n is the number of vertices in the graph
-- This is **not good** for large graphs
-- A real life usage of the algorithm is in the **routing of packets in a network**
+- **Key Points**
+    - The Floyd-Warshall algorithm is a dynamic programming algorithm that finds the shortest path between all pairs of vertices in the graph
+    - The key point here is **ALL PAIRS** of vertices
+    - All pairs means that the algorithm uses a systematic approach to find the shortest path between all pairs of vertices
+- **Floyd-Warshall Algorithm**
+    - the fact that Floyd-Warshall find all pairs means that it is a **triple nested loop**
+    - This **negatively** impacts the efficiency of the algorithm
+- **Handling Negative Weights and Cycles**
+    - Negative weights and cycles are **no problem** for Floyd-Warshall
+    - The algorithm will still produce the correct output
+- **Algorithm Implementation**
+    - The algorithm is implemented using a triple nested loop
+    - The first loop is used to iterate through the vertices
+    - The second loop is used to iterate through the rows of the adjacency matrix
+    - The third loop is used to iterate through the columns of the adjacency matrix
+- **Test Cases**
+    - I testing with a simple graph that had no negative weights or cycles
+    - I then tested the algorithm with a graph with negative weights and cycles
+- **Algorithm Analysis**
+    - The running time of the algorithm is **O(n^3)** where n is the number of vertices in the graph
+    - This is **not good** for large graphs
+    - A real life usage of the algorithm is in the **routing of packets in a network**
 ## Readings
 - **Algorithms Illuminated Part 2 & 3 - Tim Roughgarden**
     - Chapter 9: Dijkstra's Shortest-Path Algorithm
