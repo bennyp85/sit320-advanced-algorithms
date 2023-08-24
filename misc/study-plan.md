@@ -11,7 +11,7 @@
 - **Duration**: 1-2 hours (with short breaks if needed).
 - **Mindset**: Engaged and Curious.
 
-## Midday Music Break:
+## Midday Music/Gaming Break:
 - **Play music, practice an instrument, or enjoy inspiring music.**
 - **Healthy lunch and relaxation.**
 - **Duration**: 30-60 minutes.
@@ -32,7 +32,7 @@
 - **Duration**: 30 minutes to 1 hour.
 - **Mindset**: Playful and Open.
 
-## Evening Music Session:
+## Evening Music/Gaming Session:
 - **Dedicate time to playing an instrument or engaging with music creatively.**
 - **Duration**: 30-60 minutes.
 - **Mindset**: Expressive and Joyful.
