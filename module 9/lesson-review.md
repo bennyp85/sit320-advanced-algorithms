@@ -2,6 +2,8 @@
 # SIT320 — Advanced Algorithms
 ## Module Nine: Linear Programming
 
+### [ChatGPT Link](https://chat.openai.com/share/cc87a452-8f00-422a-b5e9-2e3c93f623d8)
+### [GitHub Link](https://github.com/bennyp85/sit320-advanced-algorithms/tree/master/module%209)
 ### Lesson Review
 - Some key terms related to linear programming are:
     - **Objective function:** The function that is to be maximized or minimized.
