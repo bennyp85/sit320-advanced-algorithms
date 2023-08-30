@@ -9,7 +9,7 @@
 ## LU Decomposition Algorithm
 
 - Explore the LU decomposition algorithm and how it's used to solve systems of linear equations.
-Dive into the mathematics behind forward and backward substitution, and understand how these methods contribute to computational efficiency.
+- Dive into the mathematics behind forward and backward substitution, and understand how these methods contribute to computational efficiency.
 
 ## Interconnection of Linear Programming with Ethics and Philosophy
 
