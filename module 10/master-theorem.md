@@ -1,4 +1,5 @@
 ### Master Theorem
+![image](Screenshot2.png)
 
 The Master Theorem is a powerful tool used to determine the time complexity of divide-and-conquer algorithms. It provides solutions for recurrence relations of the form `T(n) = a * T(n/b) + f(n)`, where:
 

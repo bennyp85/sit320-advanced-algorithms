@@ -1,4 +1,5 @@
 ### Recursion Tree Method
+![image](Screenshot3.png)
 
 The Recursion Tree Method is a visual approach to solving recurrence relations, often used in the analysis of algorithms. By breaking down the recurrence into a tree-like structure, one can visually analyze how the problem is divided at each step and what the computational cost is at various levels of recursion.
 

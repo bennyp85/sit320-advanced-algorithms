@@ -1,3 +1,5 @@
+# The Substitution Method
+![image](Screenshot1.png)
 ### Proving `T(n) = c * log n` using Induction for the Recurrence `T(n) = T(n/2) + O(1)`
 
 #### Base Case
