@@ -1,3 +1,28 @@
+# Randomized QuickSort
+```
+Randomized_QuickSort(A, low, high)
+    if low < high
+        pivotIndex = Randomized_Partition(A, low, high)
+        Randomized_QuickSort(A, low, pivotIndex-1)
+        Randomized_QuickSort(A, pivotIndex+1, high)
+
+Randomized_Partition(A, low, high)
+    randomIndex = Random(low, high) // Generate a random number between low and high
+    swap A[randomIndex] and A[high] // Swap the random element with the last element
+    return Partition(A, low, high) // Use regular partitioning algorithm
+
+Partition(A, low, high)
+    pivot = A[high]
+    i = low
+    for j = low to high-1
+        if A[j] <= pivot
+            swap A[i] and A[j]
+            i = i + 1
+    swap A[i] and A[high]
+    return i
+
+```
+# Median of 3
 ```
 function quicksort(array, low, high)
     if low < high

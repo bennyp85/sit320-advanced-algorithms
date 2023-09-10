@@ -47,7 +47,7 @@
 ### Solution
 - In the case of Quicksort we will analyse the average case complexity. The average case is more appropriate for Quicksort because the worst case is very rare and the best case is not very useful. The reason the average case occurs more often is because the pivot is chosen randomly and the probability of choosing the worst pivot at each step is very low.
 
-[Link to Analysis]()
+- [Link to Analysis](https://github.com/bennyp85/sit320-advanced-algorithms/blob/master/module%2010/task-four.md)
 ---
 
 ## References
