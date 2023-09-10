@@ -36,3 +36,66 @@ INFO: Unsupported notification method: $/setTrace
 2023.07.31 22:40:31 INFO  Shutting down server
 2023.07.31 22:40:31 INFO  shutting down Metals
 2023.07.31 22:40:31 INFO  Exiting server
+2023.09.10 19:38:37 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\benny\sit320 advanced algorithms' for client Visual Studio Code 1.82.0.
+Sep 10, 2023 7:38:37 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Sep 10, 2023 7:38:37 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 10, 2023 7:38:37 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 10, 2023 7:38:37 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\benny\sit320 advanced algorithms\.metals\metals (H2 2.1)
+Sep 10, 2023 7:38:37 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.013s)
+Sep 10, 2023 7:38:37 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 10, 2023 7:38:37 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.10 19:38:37 INFO  time: initialize in 0.45s
+2023.09.10 19:38:38 WARN  Build server is not auto-connectable.
+2023.09.10 19:38:38 WARN  no build tool detected in workspace 'C:\Users\benny\sit320 advanced algorithms'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.09.10 19:41:54 INFO  Shutting down server
+2023.09.10 19:41:54 INFO  shutting down Metals
+2023.09.10 19:41:54 INFO  Exiting server
+2023.09.10 19:42:39 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\benny\sit320 advanced algorithms' for client Visual Studio Code 1.82.0.
+Sep 10, 2023 7:42:39 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Sep 10, 2023 7:42:39 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 10, 2023 7:42:39 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 10, 2023 7:42:39 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\benny\sit320 advanced algorithms\.metals\metals (H2 2.1)
+Sep 10, 2023 7:42:39 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.013s)
+Sep 10, 2023 7:42:39 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 10, 2023 7:42:39 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.10 19:42:40 INFO  time: initialize in 0.4s
+2023.09.10 19:42:40 WARN  Build server is not auto-connectable.
+2023.09.10 19:42:40 WARN  no build tool detected in workspace 'C:\Users\benny\sit320 advanced algorithms'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.09.10 19:42:49 INFO  Shutting down server
+2023.09.10 19:42:49 INFO  shutting down Metals
+2023.09.10 19:42:49 INFO  Exiting server
+2023.09.10 19:43:38 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\benny\sit320 advanced algorithms' for client Visual Studio Code 1.82.0.
+Sep 10, 2023 7:43:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 10, 2023 7:43:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 10, 2023 7:43:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 10, 2023 7:43:38 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\benny\sit320 advanced algorithms\.metals\metals (H2 2.1)
+Sep 10, 2023 7:43:38 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.012s)
+Sep 10, 2023 7:43:38 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 10, 2023 7:43:38 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.10 19:43:38 INFO  time: initialize in 0.38s
+2023.09.10 19:43:38 WARN  Build server is not auto-connectable.
+2023.09.10 19:43:38 WARN  no build tool detected in workspace 'C:\Users\benny\sit320 advanced algorithms'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.09.10 19:44:10 INFO  Shutting down server
+2023.09.10 19:44:10 INFO  shutting down Metals
+2023.09.10 19:44:10 INFO  Exiting server

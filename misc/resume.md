@@ -31,7 +31,7 @@ I am an aspiring PhD student with a focus on leveraging technology for societal 
 
 - **Programming Languages**: Python, C#, JavaScript
 - **Mathematics**: Discrete Math, Calculus 1, Linear Algebra
-- **Applied Fields**: Data Science, Machine Learning
+- **Applied Fields**: Algorithm Design, Data Structures, Web Development and Hardware Maintenance
 
 ## Projects
 
@@ -40,7 +40,7 @@ I am an aspiring PhD student with a focus on leveraging technology for societal 
 
 ## Extracurricular Activities
 
-- **Golf Clubs Memberships, Victoria**
+- **Various Golf Clubs Memberships, Victoria**
   - Maintained a handicap of less than 5, placing me in the top 10% of club players.
 
 ## Inspirational Figures & Philosophical Interests
