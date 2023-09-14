@@ -6,7 +6,7 @@
 
 ## Overview of Learning (Module Summary)
 [GitHub Link](https://github.com/bennyp85/sit320-advanced-algorithms/tree/master/module%2010)
-[ChatGPT Link]
+[ChatGPT Link](https://chat.openai.com/share/2d601819-4ca4-4be5-8ad0-c7692192bde3)
 
 ---
 

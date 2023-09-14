@@ -6,7 +6,7 @@ Quicksort is a divide-and-conquer sorting algorithm that uses a pivot to partiti
 ## Algorithm Description
 
 ### Pseudocode
-[Link to Pseudo-code](https://github.com/bennyp85/sit320-advanced-algorithms/blob/master/module%2010/medean-of-3.md)
+[Link to Pseudo-code](https://github.com/bennyp85/sit320-advanced-algorithms/blob/master/module%2010/pseudo-code.md)
 
 ### Key Features
 Key features of Quicksort are in-place sorting, it's admirable time complexity, the various ways to choose a pivot, unfortunate non-stable sort, adaptive in terms of being able to sort partial lists, parallelizable, language agnostic, that there are randomized versions, it's practicality and being able to sort any set of items that can be compared.
