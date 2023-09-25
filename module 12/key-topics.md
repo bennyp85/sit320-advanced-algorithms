@@ -59,11 +59,48 @@
 
 ---
 
-### Value-Iteration Algorithm
+## Value-Iteration Algorithm
 
-- Algorithm Steps
-- Convergence Criteria
-- Code Implementation
+### Algorithm Steps
+
+1. **Initialization**: 
+    - Initialize value function `V` for all states `s` to zero.
+    - Optionally, initialize a policy `π` for all states to a default action.
+
+2. **Iteration**:
+    - Loop through each state `s` in the state space.
+        - For each state, loop through each possible action `a` to find the expected value of taking that action from state `s`.
+        - Update the value function `V(s)` to be the maximum expected value over all possible actions.
+        - Optionally, update the policy `π(s)` to the action that maximizes the expected value.
+
+3. **Convergence Check**:
+    - Check if the value function has converged by comparing the change in `V(s)` for all states against a small threshold `θ`.
+    - If converged, exit the loop; otherwise, go back to the Iteration step.
+
+### Convergence Criteria
+
+- The algorithm is considered to have converged when the maximum change in the value function for all states is less than a predefined small threshold `θ`.
+- Mathematically, \( \max_{s \in S} |V_{new}(s) - V_{old}(s)| < θ \).
+
+### Code Implementation (Pseudo-code)
+
+```
+Initialize V(s) = 0 for all s in S
+Initialize optional π(s) for all s in S
+Set threshold θ = 0.001 (or another small positive number)
+
+while True:
+    Initialize delta = 0
+    for each state s in S:
+        v = V(s)
+        V(s) = max_a Σ [ P(s' | s, a) * ( R(s, a, s') + γ * V(s') ) ]
+        delta = max(delta, |V(s) - v|)
+    if delta < θ:
+        break
+```
+
+This pseudo-code outlines the core logic of the Value-Iteration algorithm, including how to update the value function and check for convergence.
+
 
 ---
 
